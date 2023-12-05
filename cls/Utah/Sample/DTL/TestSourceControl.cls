@@ -12,7 +12,7 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <transform sourceClass='EnsLib.HL7.Message' targetClass='EnsLib.HL7.Message' sourceDocType='2.5.1:ADT_A01' targetDocType='2.5.1:ADT_A01' create='copy' language='objectscript' >
 <assign value='"Epic"' property='target.{MSH:SendingFacility}' action='set' />
 <assign value='"UUH"' property='target.{MSH:ReceivingFacility}' action='set' />
-<assign value='"Cerner"' property='target.{MSH:ReceivingApplication}' action='set' />
+<assign value='"Epic"' property='target.{MSH:ReceivingApplication}' action='set' />
 </transform>
 }
 
